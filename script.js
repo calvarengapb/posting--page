@@ -31,8 +31,8 @@ formulario.addEventListener('submit', function(event) {
     .then(response => response.json())
     .then(json => {
         // renderizando o conteudo retornado pela API
-        tituloRenderizar.textContent = json.title;
-        conteudoRenderizar.textContent = json.body;
+        tituloRenderizar.innerHTML = json.title;
+        conteudoRenderizar.innerHTML = json.body;
 
         // limpando os campos do formulario
         titulo.value = '';

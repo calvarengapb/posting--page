@@ -8,7 +8,10 @@ body {
     padding: 20px;
     background-color: #fafafa;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
 }
 
 main {
@@ -17,6 +20,9 @@ main {
     background: #fff;
     padding: 20px;
     border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
 }
 
 form {
@@ -47,8 +53,23 @@ button:hover {
     background-color: #0056b3;
 }
 
+aside {
+    background-color: #e7f3ff;
+    padding: 10px;
+    margin: 20px 0;
+    border-left: 4px solid #007BFF;
+    font-size: 0.9rem;
+}
+
 article {
     border-top: 1px solid #ddd;
     padding-top: 20px;
     margin-top: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    color: #777;
+    font-size: 0.8rem;
+    text-align: center;
 }
