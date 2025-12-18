@@ -14,4 +14,7 @@ Dos requisitos do projeto, estão incluidas:
 
 | Requisito                       | Implementação no código                                                                        |
 | :------------------------------ | :--------------------------------------------------------------------------------------------- |
-| Banner dentro do `<main>`       | `<section class="banner">` está aninhada dentro de `<main id="home">`.                         |
+| Variáveis do objeto respeitadas | `data`, `title`, `body` e `userId` compoem o objeto a ser enviado via post.                    |
+| IDs dos renderizadores          | `renderizador-titulo` e `renderizador-conteudo` conectam o js ao HTML                          |
+| Seletores essenciais            | `formulario`, `titulo` e `conteudo` definidos separadamente no JS                              |
+| Tags semânticas respeitadas     | as tags `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>` e `<nav>` utilizadas.        |
