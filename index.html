@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha 2 - Projeto de Certificação 2 - Postagem de blog</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>Novo Post</h1>
+                <form id="formulario">
+                    <input type="text" name="titulo" id="titulo" placeholder="Digite o título" required>
+                    <textarea name="conteudo" id="conteudo" placeholder="Digite o conteúdo" required></textarea>
+                    <button type="submit">Enviar Agora</button>
+                </form>
+            </section>
+
+            <hr>
+
+            <article>
+                <h2 id="renderizador-titulo"></h2>
+                <p id="renderizador-conteudo"></p>
+            </article>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
