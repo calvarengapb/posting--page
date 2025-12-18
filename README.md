@@ -4,7 +4,7 @@ repositório com avaliação para certificação no curso DEVStart Senai - Trilh
 
 # Descrição do Projeto
 
-O Projeto está disposto em 2 arquivos, sendo eles:
+O Projeto está disposto em 3 arquivos, sendo eles:
 
 index.html => contém todo o 'esqueleto' do projeto,\
 style.css => contém todo o estilo e formatações da pagina dinâmica,\
@@ -17,4 +17,4 @@ Dos requisitos do projeto, estão incluidas:
 | Variáveis do objeto respeitadas | `data`, `title`, `body` e `userId` compoem o objeto a ser enviado via post.                    |
 | IDs dos renderizadores          | `renderizador-titulo` e `renderizador-conteudo` conectam o js ao HTML                          |
 | Seletores essenciais            | `formulario`, `titulo` e `conteudo` definidos separadamente no JS                              |
-| Tags semânticas respeitadas     | as tags `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>` e `<nav>` utilizadas.        |
+| Tags semânticas respeitadas     | as tags `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>` utilizadas.                  |
